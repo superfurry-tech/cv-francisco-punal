@@ -165,7 +165,7 @@ footer a,
 }
 
 .destacado-daw+p,
-.destacado-daw~article {
+.destacado-daw~article:not(.destacado-daw) {
     margin-left: 10px;
 }
 
@@ -176,12 +176,6 @@ footer a,
 .destacado-daw p+ul {
     margin-top: 5px;
 }
-
-article>p.destacado-daw {
-    margin-left: -10px;
-}
-
-
 
 .experiencia article+article {
     margin-top: 10px;
